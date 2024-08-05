@@ -47,7 +47,7 @@ Copie o markdown abaixo e cole no seu Readme do Github.
 | [type](#param-type)      | vertical | horizontal, vertical                                                                        |
 | [border](#param-border)  | false    | true, false                                                                                 |
 | [lang](#param-lang)      | en       | [Verifique a tabela de traduções](#Linguagens)                                              |
-| [id](#param-id)          | -        | 1 a 500                                                                                     |
+| [id](#param-id)          | -        | 1 a 501                                                                                     |
 | [width](#param-width)    | -        | Altura                                                                                      |
 | [height](#param-height)  | -        | Largura                                                                                     |
 | [theme](#param-theme)    | dark     | dark, light, catppuccin, catppuccin_latte, catppuccin_frappe, catppuccin_macchiato, catppuccin_mocha, algolia, monokai, dracula, nord, Chartreuse-dark, radical, merko, gruvbox, tokyonight, github, graywhite, moonlight, hackerman |
