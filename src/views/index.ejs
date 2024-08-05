@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+    <title>Quotes Readme</title>
+    
+</head>
+<body style=" background: #0d1117; ">
+    <div class="container">
+        <section class="hero">
+            <div class="hero-body pb-0 is-flex is-flex-direction-column is-align-items-center">
+                <h1 class="title is-2">Quotes Readme</h1>
+                <a href="https://github.com/devhonoratoBR/quotes-readme">
+                    <img src="https://quotes-readme.vercel.app/api?quote=Citações%20de%20Desenvolvedores%20para%20seu%20Readme%20do%20Github.&author=DevHonorato&type=horizontal&theme=dark&border=true" alt="Quotes Readme">
+                </a>
+                <div class="pt-4 pb-0 is-flex is-flex-direction-row is-align-items-center is-justify-content-center">
+                    <a href="https://github.com/devhonoratoBR/quotes-readme/issues">
+                        <img src="https://img.shields.io/github/issues/devhonoratoBR/quotes-readme?style=flat-square" alt="Issues">
+                    </a>
+                    <span class="px-4"> </span>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme/pulls">
+                        <img src="https://img.shields.io/github/issues-pr/devhonoratoBR/quotes-readme?style=flat-square" alt="Pull Requests">
+                    </a>
+                </div>
+                <div class="py-2 is-flex is-flex-direction-row is-align-items-center is-justify-content-center">
+                    <a href="https://quotes-readme.vercel.app/api" target="_blank">View Demo</a>
+                    <span class="px-4"> </span>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme/issues" target="_blank">Report Bug</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h2 class="title is-3">Features ✨</h2>
+
+                <ul>
+                    <li><a href="#Uso">Citações dinâmicas no seu README do GitHub</a></li>
+                    <li><a href="#Quote">Personalize sua própria citação</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h2 class="title is-3">Usage ⚡️</h2>
+                <p>
+                    Copie o markdown abaixo e cole no seu Readme do Github.
+                </p>
+                <blockquote>
+                    [![Quotes Readme](https://quotes-readme.vercel.app/api)](https://github.com/devhonoratoBR/quotes-readme)
+                </blockquote>
+            </div>
+         </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Parâmetros</h4>
+                <div class="table-container">
+                    <table class="table" style=" background: #0d1117; ">
+                        <thead>
+                            <tr>
+                                <th>Param</th>
+                                <th>Default</th>
+                                <th>Disponível</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="#type">type</a></td>
+                                <td>vertical</td>
+                                <td>horizontal, vertical</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#border">border</a></td>
+                                <td>false</td>
+                                <td>true, false</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#lang">lang</a></td>
+                                <td>en</td>
+                                <td><a href="#linguagens">Verifique a tabela de traduções</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#id">id</a></td>
+                                <td>-</td>
+                                <td>1 a 501</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#width">width</a></td>
+                                <td>-</td>
+                                <td>Altura</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#height">height</a></td>
+                                <td>-</td>
+                                <td>Largura</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#theme">theme</a></td>
+                                <td>dark</td>
+                                <td>dark, light, catppuccin, catppuccin_latte, catppuccin_frappe, catppuccin_macchiato, catppuccin_mocha, algolia, monokai, dracula, nord, Chartreuse-dark, radical, merko, gruvbox, tokyonight, github, graywhite, moonlight, hackerman</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#quote">quote</a></td>
+                                <td>-</td>
+                                <td>Personalize sua citação</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#author">author</a></td>
+                                <td>-</td>
+                                <td>O nome do autor da citação</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+         </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5" id="linguagens">Linguagens</h4>
+                <div class="table-container">
+                    <table class="table" style=" background: #0d1117; ">
+                        <thead>
+                            <tr>
+                                <th>Sigla</th>
+                                <th>Tradução</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ak</td>
+                                <td>Akan</td>
+                            </tr>
+                            <tr>
+                                <td>ar</td>
+                                <td>Árabe</td>
+                            </tr>
+                            <tr>
+                                <td>br</td>
+                                <td>Português Brasil</td>
+                            </tr>
+                            <tr>
+                                <td>cz</td>
+                                <td>Tcheco</td>
+                            </tr>
+                            <tr>
+                                <td>da</td>
+                                <td>Dinamarquês</td>
+                            </tr>
+                            <tr>
+                                <td>de</td>
+                                <td>Alemão</td>
+                            </tr>
+                            <tr>
+                                <td>el</td>
+                                <td>Grego</td>
+                            </tr>
+                            <tr>
+                                <td>en</td>
+                                <td>Inglês</td>
+                            </tr>
+                            <tr>
+                                <td>es</td>
+                                <td>Espanhol</td>
+                            </tr>
+                            <tr>
+                                <td>esp</td>
+                                <td>Esperanto</td>
+                            </tr>
+                            <tr>
+                                <td>fi</td>
+                                <td>Finlandês</td>
+                            </tr>
+                            <tr>
+                                <td>fr</td>
+                                <td>Francês</td>
+                            </tr>
+                            <tr>
+                                <td>hu</td>
+                                <td>Húngaro</td>
+                            </tr>
+                            <tr>
+                                <td>ig</td>
+                                <td>Irlandês</td>
+                            </tr>
+                            <tr>
+                                <td>is</td>
+                                <td>Islandês</td>
+                            </tr>
+                            <tr>
+                                <td>it</td>
+                                <td>Italiano</td>
+                            </tr>
+                            <tr>
+                                <td>iw</td>
+                                <td>Hebraico</td>
+                            </tr>
+                            <tr>
+                                <td>ja</td>
+                                <td>Japonês</td>
+                            </tr>
+                            <tr>
+                                <td>ko</td>
+                                <td>Coreano</td>
+                            </tr>
+                            <tr>
+                                <td>lt</td>
+                                <td>Lituano</td>
+                            </tr>
+                            <tr>
+                                <td>lv</td>
+                                <td>Letão</td>
+                            </tr>
+                            <tr>
+                                <td>my</td>
+                                <td>Malaio</td>
+                            </tr>
+                            <tr>
+                                <td>nl</td>
+                                <td>Holandês</td>
+                            </tr>
+                            <tr>
+                                <td>no</td>
+                                <td>Norueguês</td>
+                            </tr>
+                            <tr>
+                                <td>pl</td>
+                                <td>Polonês</td>
+                            </tr>
+                            <tr>
+                                <td>pt</td>
+                                <td>Português Portugal</td>
+                            </tr>
+                            <tr>
+                                <td>ro</td>
+                                <td>Romeno</td>
+                            </tr>
+                            <tr>
+                                <td>ru</td>
+                                <td>Russo</td>
+                            </tr>
+                            <tr>
+                                <td>sr</td>
+                                <td>Sérvio</td>
+                            </tr>
+                            <tr>
+                                <td>sv</td>
+                                <td>Sueco</td>
+                            </tr>
+                            <tr>
+                                <td>tr</td>
+                                <td>Turco</td>
+                            </tr>
+                            <tr>
+                                <td>uk</td>
+                                <td>Ucraniano</td>
+                            </tr>
+                            <tr>
+                                <td>zh</td>
+                                <td>Chinês Simplificado</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h2 class="title is-3">Instalação e Desenvolvimento 🚀</h2>
+                <p>
+                    Para começar a desenvolver este aplicativo localmente, aqui estão as etapas:
+                </p>
+                <blockquote>
+                    npm install
+                </blockquote>
+                <p>
+                    E então execute o aplicativo usando:
+                </p>
+                <blockquote>
+                    node app.js
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h2 class="title is-3 p-0 m-0" id="Uso">Como Usar</h2>
+            </div>
+        </section>
+
+        <!-- Type -->
+        <section class="section py-4">
+            <div class="content">
+                <h3 id="type">Param Type</h3>
+                <code>?type={type_value}</code>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Vertical</h4>
+                <blockquote>
+                    Esse é o valor padrão, então ele já será aplicado automaticamente se você não especificar um tipo diferente.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?type=vertical" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api)](https://github.com/devhonoratoBR/quotes-readme)https://quotes-readme.vercel.app/api
+                </pre>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?type=vertical)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Horizontal</h4>
+                <blockquote>
+                    Use este parâmetro para definir a orientação da imagem como horizontal. Por exemplo, <code>?type=horizontal</code>.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?type=horizontal" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?type=horizontal)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Border -->
+        <section class="section py-4">
+            <div class="content">
+                <h3 id="border">Param Border</h3>
+                <code>?border={border_value}</code>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <blockquote>
+                    O valor padrão é <code>false</code>. Use este parâmetro para habilitar a borda. Por exemplo, <code>?border=true</code>.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?border=true" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?border=true)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Lang -->
+        <section class="section py-4">
+            <div class="content">
+                <h3 id="lang">Param Lang</h3>
+                <code>?lang={language_code}</code>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <blockquote>
+                    Use este parâmetro para especificar o idioma. Por exemplo, <code>?lang=br</code> para Português Brasil.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?lang=br" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?lang=br)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+        
+        <!-- ID -->
+        <section class="section py-4">
+            <div class="content">
+                <h3 id="id">Param ID</h3>
+                <code>?id={id_value}</code>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <blockquote>
+                    Use este parâmetro para fornecer um ID único para a citação. Por exemplo, <code>?id=123</code>.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?id=123" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?id=123)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+        
+        <!-- Width -->
+        <section class="section py-4">
+            <div class="content">
+                <h3 id="width">Param Width</h3>
+                <code>?width={width_value}</code>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <blockquote>
+                    Use este parâmetro para definir a largura da imagem. Por exemplo, <code>?width=600</code>.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?width=600" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?width=600)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Height -->
+        <section class="section py-4">
+            <div class="content">
+                <h3 id="height">Param Height</h3>
+                <code>?height={height_value}</code>
+            </div>
+        </section>
+        
+        <section class="section py-4">
+            <div class="content is-normal">
+                <blockquote>
+                    Use este parâmetro para definir a altura da imagem. Por exemplo, <code>?height=400</code>.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?height=400" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?height=400)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Theme -->
+        <section class="section py-4">
+            <div class="content">
+                <h3 id="theme">Param Theme</h3>
+                <code>?theme={theme_value}</code>
+            </div>
+        </section>
+
+        <!-- Dark -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Dark</h4>
+                <blockquote>
+                    Esse é o valor padrão, então ele já será aplicado automaticamente se você não especificar um theme diferente.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=dark" alt="Dark">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=dark)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Light -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Light</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme light. Por exemplo, <code>?theme=light</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=light" alt="Light">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=light)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Catppuccin -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Catppuccin</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme catppuccin. Por exemplo, <code>?theme=catppuccin</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=catppuccin" alt="Catppuccin">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=catppuccin)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+
+                <p>Você pode escolher entre diferentes variantes do tema Catppuccin:</p>
+
+                <ul>
+                    <li>Latte</li>
+                    <li>Frappe</li>
+                    <li>Macchiato</li>
+                    <li>Mocha</li>
+                </ul>
+
+                <p>Para aplicar uma variante específica, adicione o sufixo desejado ao parâmetro, como <code>?theme=catppuccin_latte</code>. Veja abaixo alguns exemplos:</p>
+
+                <h4 class="title is-5">Catppuccin Latte</h4>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=catppuccin_latte" alt="Catppuccin Latte">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=catppuccin_latte)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+
+                <h4 class="title is-5">Catppuccin Frappe</h4>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=catppuccin_frappe" alt="Catppuccin Frappe">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=catppuccin_frappe)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+
+                <h4 class="title is-5">Catppuccin Macchiato</h4>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=catppuccin_macchiato" alt="Catppuccin Macchiato">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=catppuccin_macchiato)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+
+                <h4 class="title is-5">Catppuccin Mocha</h4>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=catppuccin_mocha" alt="Catppuccin Mocha Theme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=catppuccin_mocha)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+        
+        <!-- Algolia -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Algolia</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme algolia. Por exemplo, <code>?theme=algolia</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=algolia" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=algolia)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Monokai -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Monokai</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme monokai. Por exemplo, <code>?theme=monokai</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=monokai" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=monokai)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Dracula -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Dracula</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme dracula. Por exemplo, <code>?theme=dracula</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=dracula" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=dracula)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Nord -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Nord</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme nord. Por exemplo, <code>?theme=nord</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=nord" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=nord)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Chartreuse Dark -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Chartreuse Dark</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme chartreuse dark. Por exemplo, <code>?theme=chartreuse-dark</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=chartreuse-dark" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=chartreuse-dark)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Radical -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Radical</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme radical. Por exemplo, <code>?theme=radical</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=radical" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=radical)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Merko -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Merko</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme merko. Por exemplo, <code>?theme=merko</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=merko" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=merko)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Gruv Box -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Gruv Box</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme gruvbox. Por exemplo, <code>?theme=gruvbox</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=gruvbox" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=gruvbox)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Tokyo Night -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Tokyo Night</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme tokyonight. Por exemplo, <code>?theme=tokyonight</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=tokyonight" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=tokyonight)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- GitHub -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">GitHub</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme github. Por exemplo, <code>?theme=github</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=github" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=github)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Gray White -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Gray White</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme graywhite. Por exemplo, <code>?theme=graywhite</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=graywhite" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=graywhite)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Moon Light -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Moon Light</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme moonlight. Por exemplo, <code>?theme=moonlight</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=moonlight" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=moonlight)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Hacker Man -->
+        <section class="section py-4">
+            <div class="content is-normal">
+                <h4 class="title is-5">Hacker Man</h4>
+                <blockquote>
+                    Use este parâmetro para definir o theme hackerman. Por exemplo, <code>?theme=hackerman</code> para aplicar o tema.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?theme=hackerman" alt="Quotes Readme">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?theme=hackerman)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Quote -->
+        <section class="section py-4">
+            <div class="content">
+                <h3 id="quote">Param Quote</h3>
+                <code>?quote={quote_value}</code>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <blockquote>
+                    Use este parâmetro para persnalizar o texto da citação. Por exemplo, <code>?quote=Sua Citação</code>.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?quote=Sua%20Citação" alt="Quotes">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?quote=Sua%20Citação)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+            </div>
+        </section>
+
+        <!-- Author -->
+        <section class="section py-4">
+            <div class="content">
+                <h3 id="author">Param Author</h3>
+                <code>?author={author_value}</code>
+            </div>
+        </section>
+
+        <section class="section py-4">
+            <div class="content is-normal">
+                <blockquote>
+                    Use este parâmetro para persnalizar o autor da sua citação personalizada. Por exemplo, <code>?author=DevHonorato</code>.
+                </blockquote>
+                <p>
+                    <a href="https://github.com/devhonoratoBR/quotes-readme">
+                        <img src="https://quotes-readme.vercel.app/api?quote=Sua%20Citação&author=DevHonorato" alt="Quotes">
+                    </a>
+                </p>
+                <pre style=" white-space: normal; ">
+                    [![](https://quotes-readme.vercel.app/api?quote=Sua%20Citação&author=DevHonorato)](https://github.com/devhonoratoBR/quotes-readme)
+                </pre>
+                <blockquote>
+                    Para que este parâmetro funcione corretamente, ele deve ser combinado com o parâmetro <code>quote</code>.
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Contribuindo -->
+        <section class="section">
+            <div class="content is-normal">
+                <h2 class="title is-3">Contribuindo 🤝</h2>
+                <p>Contribuições, problemas e solicitações de recursos são bem-vindos!</p>
+                <p>Sinta-se à vontade para verificar a <a href="https://github.com/devhonoratoBR/quotes-readme/issues">issues page</a>.</p>
+            </div>
+        </section>
+
+        <!-- Agradecimentos -->
+        <section class="section">
+            <div class="content is-normal">
+                <h2 class="title is-3">Agradecimentos Especiais ❤</h2>
+                <p>Inspirado por <a href="https://github.com/PiyushSuthar/github-readme-quotes">PiyushSuthar/github-readme-quotes</a>.</p>
+                <p>Obrigado <a href="https://github.com/mudroljub/programming-quotes-api">skolakoda/programming-quotes-api</a> pelo Quotes JSON.</p> 
+            </div>
+        </section>
+
+        <!-- Apoio -->
+        <section class="section">
+            <div class="content is-normal">
+                <h2 class="title is-3">Mostre seu apoio 🌈</h2>
+                <p>Não se esqueça de dar uma 🌟 se você gostou do projeto!</p>
+            </div>
+        </section>
+
+        <!-- Autor -->
+        <section class="section">
+            <div class="content is-normal">
+                <h2 class="title is-3">Autor 🤗</h2>
+                <p>👤 <strong>DevHonoratoBR</strong></p>
+                <ul>
+                    <li>Site: <a href="https://devhonorato.com.br">https://devhonorato.com.br</a></li>
+                    <li>Github: <a href="https://github.com/devhonoratoBR">@devhonoratoBR</a></li>
+                    <li>LinkedIn: <a href="https://linkedin.com/in/felipe-honorato-9b3579204">@Felipe Honorato</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="content is-normal">
+                <h5 class="title is-6 p-0 m-0 has-text-centered">Feito por DevHonorato com ❤ e Javascript</h5>
+            </div>
+        </section>
+
+        </div>
+
+</body>
+</html>
