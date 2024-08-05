@@ -4,7 +4,7 @@
   <h1 align="center">Quotes Readme</h1>
   <div align="center">
     
-  [![Quotes Readme](https://quotes-readme.vercel.app/api?quote=Citações%20de%20Desenvolvedores%20para%20seu%20Readme%20do%20Github.&author=DevHonorato&type=horizontal&theme=dark&border=true)](https://github.com/devhonoratoBR/quotes-readme)
+  [![Quotes Readme](https://quotes-readme.vercel.app/api?quote=Citações%20de%20Desenvolvedores%20para%20seu%20Readme%20do%20Github.&author=DevHonorato&type=horizontal&theme=github)](https://github.com/devhonoratoBR/quotes-readme)
   </div>
   <!--<h3 align="center">Citações de Desenvolvedores para seu Readme do Github.</h3>-->
 </p>
