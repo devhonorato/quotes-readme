@@ -60,14 +60,15 @@ const renderVertical = ({ quote, author, id, color, border, width, height }) => 
             }
             .container h3::before {
               content: open-quote;
+              margin-bottom: -10px;
             }
             .container h3::after {
               content: close-quote;
+              margin-bottom: -10px;
             }
             .container h3::before, .container h3::after {
-              font-size: 2rem;
+              font-size: 1.5rem;
               display: block;
-              margin-bottom: -20px;
             }
             .container h3 {
               font-weight: 500;

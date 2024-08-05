@@ -57,7 +57,6 @@ const renderHorizontal = ({ quote, author, id, color, border, width, height }) =
               justify-content: center;
             }
             .container h3 {
-              font-size: ${f_quoteText};
               margin-bottom: 5px;
               font-weight: 500;
               font-style: oblique;
@@ -65,12 +64,17 @@ const renderHorizontal = ({ quote, author, id, color, border, width, height }) =
             }
             .container h3::before {
               content: open-quote;
-              font-size: 2rem;
+              font-size: 1.5rem;
+              vertical-align: sub;
+              padding-right: 7px;
+              margin-left: -13px;
             }
             .container h3::after {
               content: close-quote;
+              font-size: 1.5rem;
               vertical-align: sub;
-              font-size: 2rem;
+              padding-left: 7px;
+              margin-right: -13px;
             }
             .container p {
               font-style: italic;
