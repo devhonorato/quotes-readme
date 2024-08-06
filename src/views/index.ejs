@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="bd-theme-features" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <title>Quotes Readme</title>
-    
+    <style>
+        .floating-btn {
+            position: fixed;
+            bottom: 1%;
+            right: 1%;
+            /* background-color: #444; */
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .floating-btn i {
+            color: #8156f5;
+            font-size: 24px;
+        }
+        /* [data-theme="light"] .floating-btn {
+            background-color: #eee;
+        } */
+        [data-theme="light"] .floating-btn i {
+            color: #ffb70f;
+        }
+    </style>
 </head>
-<body style=" background: #0d1117; ">
+<body >
     <div class="container">
         <section class="hero">
             <div class="hero-body pb-0 is-flex is-flex-direction-column is-align-items-center">
@@ -59,7 +87,7 @@
             <div class="content is-normal">
                 <h4 class="title is-5">Parâmetros</h4>
                 <div class="table-container">
-                    <table class="table" style=" background: #0d1117; ">
+                    <table class="table">
                         <thead>
                             <tr>
                                 <th>Param</th>
@@ -123,7 +151,7 @@
             <div class="content is-normal">
                 <h4 class="title is-5" id="linguagens">Linguagens</h4>
                 <div class="table-container">
-                    <table class="table" style=" background: #0d1117; ">
+                    <table class="table">
                         <thead>
                             <tr>
                                 <th>Sigla</th>
@@ -904,7 +932,36 @@
             </div>
         </section>
 
-        </div>
+        <button id="toggleThemeBtn" class="floating-btn">
+            <i id="themeIcon" class="fas fa-moon"></i>
+        </button>
+    </div>
 
 </body>
+<script>
+    // Function to set the theme
+    function setTheme(theme) {
+        const htmlElement = document.documentElement;
+        htmlElement.setAttribute('data-theme', theme);
+        const themeIcon = document.getElementById('themeIcon');
+        themeIcon.className = theme === 'dark' ? 'fas fa-moon' : 'fas fa-sun';
+    }
+
+    // Check for saved theme in localStorage
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        setTheme(savedTheme);
+    } else {
+        // Default theme
+        setTheme('dark');
+    }
+
+    // Toggle theme and save to localStorage
+    document.getElementById('toggleThemeBtn').addEventListener('click', function() {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        setTheme(newTheme);
+        localStorage.setItem('theme', newTheme);
+    });
+</script>
 </html>
