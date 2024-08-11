@@ -40,6 +40,38 @@ app.get('/api', async (req, res) => { // Define uma rota GET para '/api'.
   res.send(renderSVG(data, type, theme, border, width, height)); // Renderiza o SVG com os dados e parâmetros fornecidos e envia a resposta.
 });
 
+// Rota para a JSON
+app.get('/json', async (req, res) => { 
+  const { type, theme, quote, author, lang, id } = req.query; // Extrai parâmetros de consulta da URL.
+
+  let lg = 'br'; // Define o idioma padrão como português.
+
+  if(lang){
+    lg = lang; // Se um idioma for fornecido, usa esse idioma.
+  }
+
+  let data;
+
+  if (quote && author) {
+    data = {
+      quote: quote,
+      author: author
+    }; // Se uma citação e um autor forem fornecidos, usa esses valores.
+  } else if (quote) {
+    data = {
+      quote: quote,
+      author: 'Me'
+    }; // Se apenas uma citação for fornecida, usa 'Me' como autor.
+  } else {
+    data = await fetchQuotes.fetchQuotes(lg, id); // Se nenhum valor for fornecido, busca uma citação com o idioma e ID fornecidos.
+  }
+
+  res.setHeader('Content-Type', 'application/json'); // Define o tipo de conteúdo como JSON.
+  // res.setHeader('Cache-Control', `public, max-age=600`); // Define o controle de cache para 10 minutos.
+  res.json(data); // Envia o JSON como resposta.
+});
+
+
 // Rota para a página inicial
 app.get('/', (req, res) => { // Define uma rota GET para a página inicial.
   res.render('index'); // Renderiza o arquivo index.ejs.
