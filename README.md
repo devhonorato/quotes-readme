@@ -481,7 +481,7 @@ Não se esqueça de dar uma 🌟 se você gostou do projeto!
 👤 **DevHonoratoBR**
 
 - Site: [https://devhonorato.com.br](https://devhonorato.com.br)
-- Github: [@devhonoratoBR](https://github.com/devhonoratoBR)
+- Github: [@devhonoratoBR](https://github.com/devhonorato)
 - LinkedIn: [@Felipe Honorato](https://linkedin.com/in/felipe-honorato-9b3579204)
 
 
