@@ -60,7 +60,7 @@ Copie o markdown abaixo e cole no seu Readme do Github.
 | ----- | ------------------------ |
 | ak    | Akan                     |
 | ar    | Árabe                    |
-|     | Português asil         |
+| br    | Português Brasil         |
 | cz    | Tcheco                   |
 | da    | Dinamarquês              |
 | de    | Alemão                   |
@@ -74,7 +74,7 @@ Copie o markdown abaixo e cole no seu Readme do Github.
 | ig    | Irlandês                 |
 | is    | Islandês                 |
 | it    | Italiano                 |
-| iw    | Heaico                 |
+| iw    | Hebraico                 |
 | ja    | Japonês                  |
 | ko    | Coreano                  |
 | lt    | Lituano                  |
